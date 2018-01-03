@@ -51,3 +51,9 @@
   background: #D126A9;
   width: 99%;
 }
+
+@media all and (max-width:450px) {
+  [class*='col-'] {
+    width: 100%;
+  }
+}

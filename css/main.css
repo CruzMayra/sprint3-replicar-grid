@@ -53,7 +53,7 @@
 }
 
 @media all and (max-width:450px) {
-  [class*='col-'] {
+  [class*="col-"] {
     width: 100%;
   }
 }

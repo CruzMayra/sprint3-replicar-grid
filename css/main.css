@@ -11,7 +11,7 @@
 }
 
 .row:before, .row:after {
-  content: "";
+  content: " ";
   display: table;
   clear: both;
 }
@@ -24,32 +24,32 @@
 
 .col-1 {
   background: #FFFF00;
-  width: 7.3%;
+  width: calc(8.33% - 1%); /*Método para calcular el tamaño de la columna y el gutter de manera más exacta*/
 }
 
 .col-2 {
   background: #AFFF00;
-  width: 15.6%;
+  width: calc(16.66% - 1%);
 }
 
 .col-3 {
   background:#1EE2A6;
-  width:24%;
+  width:calc(25% - 1%);
 }
 
 .col-4 {
   background: #01B6AD;
-  width: 32.3%;
+  width: calc(33.33% - 1%);
 }
 
 .col-6 {
   background: #9C42D0;
-  width: 49%;
+  width: calc(50% - 1%);
 }
 
 .col-12 {
   background: #D126A9;
-  width: 99%;
+  width: calc(100% - 1%);
 }
 
 @media all and (max-width:450px) {
